@@ -6,9 +6,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 
-fp = webdriver.FirefoxProfile('/home/asgaralipq/.mozilla/firefox/0zhbal6h.default-release')
+fp = webdriver.FirefoxProfile('/root/.mozilla/firefox/i7qa87yy.default-esr')
 wd = webdriver.Firefox(fp)
-wd.get("https://colab.research.google.com/drive/1PIybc8oaszBcVeAPVQyAl-90jYDDMhWp")
+wd.get("https://colab.research.google.com/github/batata01/999/blob/main/zon3%20(4).ipynb")
 print(wd.title)  
 print("Page loaded")
 
@@ -19,7 +19,7 @@ wd.find_element_by_id(':1w').click()
 print("Running colab...")
 print("Waiting for task to complete...")
 
-while not os.path.isfile('/home/asgaralipq/Work/Colab-Script/Downloads/copy.txt'):
+while not os.path.isfile('/root/work/colabscript/Downloads/copy.txt'):
     time.sleep(1)
 
 print("Task completed")
