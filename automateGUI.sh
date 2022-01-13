@@ -1,4 +1,4 @@
 #!/bin/bash
 
-/usr/bin/python /home/asgaralipq/Work/Colab-Script/script.py
+/usr/bin/python /root/work/colabscript/script.py
 bash move.sh
