@@ -8,6 +8,6 @@ WantedBy=multi-user.target
 [Service]
 Type=simple
 ExecStart=/usr/sbin/automate.sh
-WorkingDirectory=/home/asgaralipq/Work/Colab-Script/
+WorkingDirectory=/root/work/colabscript/
 StandardOutput=journal
 StandardError=journal
